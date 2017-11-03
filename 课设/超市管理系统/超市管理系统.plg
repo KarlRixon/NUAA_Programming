@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 超市管理系统 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\KARLRI~1\AppData\Local\Temp\RSP2A1.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/超市管理系统.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\超市管理系统\main.cpp"
+"E:\超市管理系统\财务记录系统.cpp"
+"E:\超市管理系统\经理操作系统.cpp"
+"E:\超市管理系统\经理系统.cpp"
+"E:\超市管理系统\密码登陆系统.cpp"
+"E:\超市管理系统\普通用户.cpp"
+"E:\超市管理系统\普通用户操作系统.cpp"
+"E:\超市管理系统\收银员操作系统.cpp"
+"E:\超市管理系统\收银员系统.cpp"
+"E:\超市管理系统\文件编辑系统.cpp"
+]
+Creating command line "cl.exe @C:\Users\KARLRI~1\AppData\Local\Temp\RSP2A1.tmp" 
+Creating temporary file "C:\Users\KARLRI~1\AppData\Local\Temp\RSP2A2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/超市管理系统.pdb" /debug /machine:I386 /out:"Debug/超市管理系统.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\财务记录系统.obj"
+".\Debug\经理操作系统.obj"
+".\Debug\经理系统.obj"
+".\Debug\密码登陆系统.obj"
+".\Debug\普通用户.obj"
+".\Debug\普通用户操作系统.obj"
+".\Debug\收银员操作系统.obj"
+".\Debug\收银员系统.obj"
+".\Debug\文件编辑系统.obj"
+]
+Creating command line "link.exe @C:\Users\KARLRI~1\AppData\Local\Temp\RSP2A2.tmp"
+<h3>Output Window</h3>
+Compiling...
+经理操作系统.cpp
+经理系统.cpp
+E:\超市管理系统\经理操作系统.cpp(463) : warning C4715: 'checkcust' : not all control paths return a value
+E:\超市管理系统\经理系统.cpp(24) : warning C4101: 'pass' : unreferenced local variable
+Skipping... (no relevant changes detected)
+main.cpp
+财务记录系统.cpp
+密码登陆系统.cpp
+普通用户.cpp
+普通用户操作系统.cpp
+收银员操作系统.cpp
+收银员系统.cpp
+文件编辑系统.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+超市管理系统.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
